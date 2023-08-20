@@ -1,0 +1,17 @@
+Aim: Write a program in visual Basic to find the Sum of the first 100 natural numbers entered using do loop.
+
+Program:
+
+Private Sub Form_Load()
+    Dim i, sum As Integer
+    sum = 0
+    i = 1
+    Do
+        sum = sum + i
+        i = i + 1
+    Loop While ( a<=100 )
+
+    MsgBox("The Sum of first 100 numbers is " &sum& "."),  VBInformation
+
+End 
+End Sub
